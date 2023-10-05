@@ -17,5 +17,6 @@
 | `compose(g,f)` | Calcula g compuesta con f |
 | `compose(f,g)` | Calcula f compuesta con g |
 
-F inyectiva <=> V x1,x2 e A
+F inyectiva <=> V x1,x2 e A 
+
 F(x1) = F(x2) => x1 = x2
