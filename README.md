@@ -63,5 +63,10 @@ F(x1) = F(x2) => x1 = x2
 | `axis equal` | Establece la misma escala en cada eje |
 
 ###  Límites y continuidad de funciones <a name="id2.3"></a>
-
-
+| Comando | Descripción |
+| --- | --- |
+| `limit(f,x,a)` | Calcula el límite de f cuando x tiende hacia el punto a: l´ım x→a f(x). Si no se especifica la variable tomará, por defecto, x. Si no se especifica a tomará, por defecto, 0 |
+| `limit(f,x,a,'right') ` | Calcula el límite por la derecha : l´ım x→a+ f(x) |
+| `limit(f,x,a,'left') ` | Calcula el límite por la derecha : l´ım x→a- f(x) |
+| `limit(f,x,inf) ` | Calcula el límite por la derecha : l´ım x→∞+ f(x) |
+| `limit(f,x,-inf) ` | Calcula el límite por la derecha : l´ım x→∞- f(x) |
