@@ -62,6 +62,18 @@ F(x1) = F(x2) => x1 = x2
 | `axis([X1 X2 Y1 Y2])` | La gráfica abarca entre los valores de X1(izq), X2(der), Y1(bot) e Y2(top) |
 | `axis equal` | Establece la misma escala en cada eje |
 
+Tabla de colores 
+| Comando | Descripción |
+| --- | --- |
+| `red` | `r` |
+| `green` | `g` |
+| `blue` | `b` |
+| `cyan` | `c` |
+| `magenta` | `m` |
+| `yellow` | `y` |
+| `black` | `k` |
+| `white` | `w` |
+
 ###  Límites y continuidad de funciones <a name="id2.3"></a>
 | Comando | Descripción |
 | --- | --- |
