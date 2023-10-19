@@ -54,8 +54,8 @@ F(x1) = F(x2) => x1 = x2
 | `plot(x,y)` | Hace una gráfica|
 | `plot(x,y,'--r*')` | Hace una gráfica y la colorea de rojo |
 | `plot(x,y1,'g',x,y2,'r')` | Primera grafica en verde y la segunda en rojo |
-| `hold on` | Mantiene fija la gráca para que las siguientes órdenes de representación gráfica se añadan sobre ella |
-| `hold off` | Restaura todas las propiedades de una gráca a sus valores por defecto |
+| `hold on` | Mantiene fija la gráfica para que las siguientes órdenes de representación gráfica se añadan sobre ella |
+| `hold off` | Restaura todas las propiedades de una gráfica a sus valores por defecto |
 | `figure(n)` | Selecciona la ventana gráfica Figure No. n como ventana activa; si no existiese,la crea |
 | `close all` | Cierra todas las ventanas gráficas |
 | `grid ` | Para usar una rejilla en el dibujo, grid on para crearla, grid off para quitarla |
@@ -66,7 +66,7 @@ F(x1) = F(x2) => x1 = x2
 | Comando | Descripción |
 | --- | --- |
 | `limit(f,x,a)` | Calcula el límite de f cuando x tiende hacia el punto a: l´ım x→a f(x). Si no se especifica la variable tomará, por defecto, x. Si no se especifica a tomará, por defecto, 0 |
-| `limit(f,x,a,'right') ` | Calcula el límite por la derecha : l´ım x→a+ f(x) |
-| `limit(f,x,a,'left') ` | Calcula el límite por la derecha : l´ım x→a- f(x) |
-| `limit(f,x,inf) ` | Calcula el límite por la derecha : l´ım x→∞+ f(x) |
-| `limit(f,x,-inf) ` | Calcula el límite por la derecha : l´ım x→∞- f(x) |
+| `limit(f,x,a,'right') ` | Calcula el límite por la derecha : lím x→a+ f(x) |
+| `limit(f,x,a,'left') ` | Calcula el límite por la izquierda : lím x→a- f(x) |
+| `limit(f,x,inf) ` | Calcula el límite de F en más infinito : lím x→∞+ f(x) |
+| `limit(f,x,-inf) ` | Calcula el límite de F en menos infinito : lím x→∞- f(x) |
