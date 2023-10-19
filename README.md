@@ -1,10 +1,10 @@
 # Anotaciones sobre clases de MatLab
 **Índice**
-* [1. Sesión 1: Introducción](#id1)
-* [2. Sesión 2: Funciones de una variable](#id2)
-* [➥    2.1. Vectores](#id2.1)
-* [➥    2.2. Representaciones gráficas](#id2.2)
-* [➥    2.3. Límites y continuidad de funciones](#id2.3)
+* [Sesión 1: Introducción](#id1)
+* [Sesión 2: Funciones de una variable](#id2)
+* [➥    Vectores](#id2.1)
+* [➥    Representaciones gráficas](#id2.2)
+* [➥    Límites y continuidad de funciones](#id2.3)
 
 ## Sesión 1 - Introducción <a name="id1"></a>
 
