@@ -1,6 +1,7 @@
 # Anotaciones sobre clases de MatLab
 **Índice**
 * [Sesión 1: Introducción](#id1)
+* [➥    Funciones Matemáticas](#id1.1)
 * [Sesión 2: Funciones de una variable](#id2)
 * [➥    Vectores](#id2.1)
 * [➥    Representaciones gráficas](#id2.2)
@@ -26,6 +27,21 @@
 F inyectiva <=> V x1,x2 e A 
 
 F(x1) = F(x2) => x1 = x2
+
+### Funciones Matemáticas <a name="id1.1"></a>
+
+| Not. Cientifica | Not. MatLab |
+| --- | --- |
+| `/x/` | abs(x) |
+| `sen x ` | sin(x)  |
+| `cos x` | cos(x)  |
+| `tan x` | tan(x)  |
+| `arc sen x ` | asin(x)  |
+| `arc cos x ` | acos(x) |
+| `arctan x ` | atan(x)  |
+| `e^x` | exp(x) |
+| `ln x ` | log(x)  |
+| `√x ` | sqrt(x)  |
 
 
 ## Sesión 2 - Funciones de una variable: Representación gráfica, limites y continuidad <a name="id2"></a>
