@@ -6,6 +6,7 @@
 * [➥    Vectores](#id2.1)
 * [➥    Representaciones gráficas](#id2.2)
 * [➥    Límites y continuidad de funciones](#id2.3)
+* [Sesión 3: Derivadas](#id3)
 
 ## Sesión 1 - Introducción <a name="id1"></a>
 
@@ -98,3 +99,19 @@ F(x1) = F(x2) => x1 = x2
 | `limit(f,x,a,'left') ` | Calcula el límite por la izquierda : lím x→a- f(x) |
 | `limit(f,x,inf) ` | Calcula el límite de F en más infinito : lím x→∞+ f(x) |
 | `limit(f,x,-inf) ` | Calcula el límite de F en menos infinito : lím x→∞- f(x) |
+
+
+## Sesión 1 - Derivadas <a name="id3"></a>
+| Comando | Descripción |
+| --- | --- |
+| `diff(f)` | Calcula la derivada de la expresión simbólica f con respecto la variable que Matlab elegirá por defecto |
+| `diff(f, x)` | Calcula la derivada de la expresión simbólica f con respecto a la variable X |
+| `diff(f, x, n)` | Calcula la derivada n-ésima de f con respecto a la variable x |
+| `taylor(f,x,a,'order',n)` | Calcula el polinomio de Taylor de f(x) de orden n − 1 en el punto a |
+| `taylortool` | Es una calculadora interactiva de polinomios de Taylor |
+
+Para saber los intervalos, hacemos la diff(f) y aplicamos el solve para saber los puntos de corte y sacar así la monotonía de la función, con esto podemos saber si la función F crece o decrece
+
+Para saber la curvatura de la función F, hacer diff(f, 2) utilizando de seguido la función solve para saber los ceros, y en esos intervalos, podemos saber la curvatura, por lo que conseimos otro intervalo que nos dirá la concavidad de la misma.
+
+MacLaurin es utilizar Taylor pero con el 0
