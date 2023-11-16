@@ -121,5 +121,5 @@ MacLaurin es utilizar Taylor pero con el 0
 ## Sesión 4 - Integación <a name="id4"></a>
 | Comando | Descripción |
 | --- | --- |
-| `int(f,x)` | Calcula la integral indefinida ∫ f(x) dx, pero sin la constante aditiva, es decir, calcula una primitiva de f. Si no se especica la variable, Matlab elegiría una por defecto, teniendo siempre preferencia por la variable X |
+| `int(f,x)` | Calcula la integral indefinida ∫ f(x) dx, pero sin la constante aditiva, es decir, calcula una primitiva de f. Si no se especifica la variable, Matlab elegiría una por defecto, teniendo siempre preferencia por la variable X |
 | `int(f,x,a,b)` | Calcula la integral definida ∫ ba f(x) dx. |
