@@ -117,7 +117,7 @@ Para saber los intervalos, hacemos la diff(f) y aplicamos el solve para saber lo
 
 Para saber la curvatura de la función F, hacer diff(f, 2) utilizando de seguido la función solve para saber los ceros, y en esos intervalos, podemos saber la curvatura, por lo que conseimos otro intervalo que nos dirá la concavidad de la misma.
 
-MacLaurin es utilizar Taylor pero con el 0
+MacLaurin es utilizar Taylor pero con el 0. Sirve para ir aproximando, sirve para la parte de integración
 
 
 ## Sesión 4 - Integación <a name="id4"></a>
@@ -125,3 +125,10 @@ MacLaurin es utilizar Taylor pero con el 0
 | --- | --- |
 | `int(f,x)` | Calcula la integral indefinida ∫ f(x) dx, pero sin la constante aditiva, es decir, calcula una primitiva de f. Si no se especifica la variable, Matlab elegiría una por defecto, teniendo siempre preferencia por la variable X |
 | `int(f,x,a,b)` | Calcula la integral definida ∫ ba f(x) dx. |
+
+**Calculos de area:**
+Para calcular los puntos de corte, utilizar solve(f-g).
+
+Una vez que se tienen, utilizamos ∫ ba f-g dx + ∫ cb f-g dx, que viene a ser en MatLab: `int(f-g,x,a,b) + int(f-g,x,b,c)` aunque tambien podemos usar `int(abs(f-g),x,a,c)`, aconsejable mirar la gráfica para orientarnos mejor.
+
+
