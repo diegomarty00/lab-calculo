@@ -7,6 +7,7 @@
 * [➥    Representaciones gráficas](#id2.2)
 * [➥    Límites y continuidad de funciones](#id2.3)
 * [Sesión 3: Derivadas](#id3)
+* [Sesión 4: Integación](#id4)
 
 ## Sesión 1 - Introducción <a name="id1"></a>
 
@@ -101,7 +102,7 @@ F(x1) = F(x2) => x1 = x2
 | `limit(f,x,-inf) ` | Calcula el límite de F en menos infinito : lím x→∞- f(x) |
 
 
-## Sesión 1 - Derivadas <a name="id3"></a>
+## Sesión 3 - Derivadas <a name="id3"></a>
 | Comando | Descripción |
 | --- | --- |
 | `diff(f)` | Calcula la derivada de la expresión simbólica f con respecto la variable que Matlab elegirá por defecto |
@@ -115,3 +116,10 @@ Para saber los intervalos, hacemos la diff(f) y aplicamos el solve para saber lo
 Para saber la curvatura de la función F, hacer diff(f, 2) utilizando de seguido la función solve para saber los ceros, y en esos intervalos, podemos saber la curvatura, por lo que conseimos otro intervalo que nos dirá la concavidad de la misma.
 
 MacLaurin es utilizar Taylor pero con el 0
+
+
+## Sesión 4 - Integación <a name="id4"></a>
+| Comando | Descripción |
+| --- | --- |
+| `int(f,x)` | Calcula la integral indefinida ∫ f(x) dx, pero sin la constante aditiva, es decir, calcula una primitiva de f. Si no se especica la variable, Matlab elegiría una por defecto, teniendo siempre preferencia por la variable X |
+| `int(f,x,a,b)` | Calcula la integral definida ∫ ba f(x) dx. |
